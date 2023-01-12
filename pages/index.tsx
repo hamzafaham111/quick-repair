@@ -39,6 +39,7 @@ const Home: NextPage = () => {
           style={{}}
           width={600}
           height={600}
+          alt=""
         />
       </div>
     </div>
