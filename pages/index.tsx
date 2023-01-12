@@ -1,4 +1,5 @@
 import type { NextPage } from "next";
+import * as React from "react";
 import Head from "next/head";
 import Image from "next/image";
 
@@ -7,12 +8,12 @@ const Home: NextPage = () => {
     <div className="h-screen flex items-center justify-center flex-col-reverse md:flex-row  mx-6 sm:mx-8 md:mx-20">
       <div className="md:w-2/4 flex flex-col mt-3 md:mt-0">
         <div className="flex flex-col text-gray-800 items-start">
-          <snap className="text-xl lg:text-3xl sm:text-2xl font-extrabold leading-none">
+          <p className="text-xl lg:text-3xl sm:text-2xl font-extrabold leading-none">
             QUICK AND RELAIBLE
-          </snap>
-          <snap className="text-xl lg:text-3xl sm:text-2xl font-extrabold leading-none">
+          </p>
+          <p className="text-xl lg:text-3xl sm:text-2xl font-extrabold leading-none">
             APPLIANCE REPAIR SERVICE
-          </snap>
+          </p>
           <span className="text-white text-sm font-extrabold mt-1 bg-blue-600 px-2">
             YOUR TRUST OUR CONFIDENCE
           </span>
