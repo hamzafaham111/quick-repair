@@ -6,7 +6,7 @@ const Footer = () => {
       className="
     "
     >
-      <div className="bg-gray-900 pt-8 md:pt-20">
+      <div className="bg-gray-800 pt-8 md:pt-20">
         <div className="container m-auto space-y-8 px-6 text-gray-400 dark:text-gray-300 md:px-12 lg:px-20">
           <div>
             <div

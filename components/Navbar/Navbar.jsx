@@ -1,11 +1,27 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Link from "next/link";
 import Image from "next/image";
 const Navbar = () => {
   const [navbar, setNavbar] = useState(false);
+
+  function handleScroll() {
+    const navbar = document.querySelector(".navbar");
+    if (window.scrollY > 0) {
+      navbar.classList.add("shadow-md");
+    } else {
+      navbar.classList.remove("shadow-md");
+    }
+  }
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   return (
     <div>
-      <div className="my-3 flex justify-between mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
+      {/* <div className="my-3 flex justify-between mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
         <div className="flex items-center">
           <Image src="/NavbarAssets/iphone.png" width={22} height={22} />
           <span className="font-bold text-orange-500 ml-2">03169650686</span>
@@ -38,19 +54,20 @@ const Navbar = () => {
             WhatsaApp
           </span>
         </div>
-      </div>
-      <nav className="w-full bg-gray-900 shadow py-4 fixed">
-        <div className="justify-between mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
+      </div> */}
+      <nav className="w-full bg-white py-4 fixed justify-center items-center shadow-md navbar">
+        <div className="justify-between md:items-center md:flex mx-6 sm:mx-8 md:mx-20">
           <div>
             <div className="flex items-center justify-between md:block">
               <a href="/" className="flex items-center">
-                <h2 className="text-2xl font-bold text-orange-500">
-                  Quick <snap className="text-white">Appliance Repair</snap>
+                <h2 className="text-2xl md:font-extrabold text-blue-500">
+                  <span className="">Quick </span>
+                  <snap className="text-gray-800">Repair</snap>
                 </h2>
               </a>
               <div className="md:hidden">
                 <button
-                  className="p-2 text-white rounded-md outline-none focus:border-gray-400 focus:border"
+                  className="p-2 text-gray-800 rounded-md outline-none focus:border-gray-400 focus:border"
                   onClick={() => setNavbar(!navbar)}
                 >
                   {navbar ? (
@@ -92,53 +109,53 @@ const Navbar = () => {
                 navbar ? "block" : "hidden"
               }`}
             >
-              <ul className="items-center font-medium space-y-8 md:flex md:space-x-6 md:space-y-0">
+              <ul className="items-center font-medium space-y-8 md:flex md:space-x-6 md:space-y-0 text-sm">
                 <li>
                   <Link
                     href="/"
-                    className="text-white hover:text-orange-500 focus:text-orange-500"
+                    className="text-gray-800 hover:text-blue-500 focus:text-blue-500"
                   >
-                    Home{" "}
+                    HOME{" "}
                   </Link>
                 </li>
                 <li>
                   <Link
                     href="/about-us"
-                    className="text-white hover:text-orange-500 focus:text-orange-500"
+                    className="text-gray-800 hover:text-blue-500 focus:text-blue-500"
                   >
-                    About US
+                    ABOUT
                   </Link>
                 </li>
                 <li>
                   <Link
                     href="/blog"
-                    className="text-white hover:text-orange-500 focus:text-orange-500"
+                    className="text-gray-800 hover:text-blue-500 focus:text-blue-500"
                   >
-                    Services
+                    SERVICES
                   </Link>
                 </li>
                 <li>
                   <Link
                     href="/blog"
-                    className="text-white hover:text-orange-500 focus:text-orange-500"
+                    className="text-gray-800 hover:text-blue-500 focus:text-blue-500"
                   >
-                    Brands
+                    BRANDS
                   </Link>
                 </li>
                 <li>
                   <Link
                     href="/contact-us"
-                    className="text-white hover:text-orange-500 focus:text-orange-500"
+                    className="text-gray-800 hover:text-blue-500 focus:text-blue-500"
                   >
-                    Contact US
+                    CONTACT
                   </Link>
                 </li>
                 <li className="">
                   <Link
                     href="#"
-                    className="text-white bg-orange-500 hover:bg-orange-600 transition px-4 py-2 cursor-pointer md:ml-12"
+                    className="text-white bg-blue-500 hover:bg-blue-600 transition px-4 py-2 cursor-pointer md:ml-12 text-nowrap"
                   >
-                    Check Avalability
+                    CHECK AVALABILITY
                   </Link>
                 </li>
               </ul>
