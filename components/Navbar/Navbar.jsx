@@ -55,7 +55,7 @@ const Navbar = () => {
           </span>
         </div>
       </div> */}
-      <nav className="w-full bg-white py-4 fixed justify-center items-center shadow-md navbar">
+      <nav className="border w-full bg-white py-4 fixed justify-center items-center shadow-md navbar">
         <div className="justify-between md:items-center md:flex mx-6 sm:mx-8 md:mx-20">
           <div>
             <div className="flex items-center justify-between md:block">
