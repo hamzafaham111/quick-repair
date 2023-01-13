@@ -40,7 +40,7 @@ const HeroSection = () => {
                     style={{}}
                     width={500}
                     height={500}
-                    alt=""
+                    alt="image"
                 />
             </div>
         </div>
