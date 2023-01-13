@@ -35,7 +35,7 @@ const HeroSection = () => {
             </div>
             <div className="bg-gray-500 rounded-tl-lg">
                 <Image
-                    src="/indexAssets/heroImage.png"
+                    src="/IndexAssets/heroImage.png"
                     className="object-cover bg-blue-500 z-50 p-4"
                     style={{}}
                     width={500}
