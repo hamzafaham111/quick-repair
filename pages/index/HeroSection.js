@@ -37,7 +37,6 @@ const HeroSection = () => {
                 <Image
                     src="/IndexAssets/heroImage.png"
                     className="object-cover bg-blue-500 z-50 p-4"
-                    style={{}}
                     width={500}
                     height={500}
                     alt="image"
