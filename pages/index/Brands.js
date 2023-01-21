@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Image from 'next/image'
 const Brands = () => {
     return (
         <div className='mx-6 sm:mx-8 md:mx-20 py-20'>
@@ -18,11 +18,12 @@ const Brands = () => {
                     Following are the brands that we have worked on for years and years, we have experts who know all thes brands and their technologies. You get any problem or you have any need of repairing of a dryer, washing machine, or dishwasher, we are avalable 24/7 to help.
                 </snap>
                 <div className='grid grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-6 mx-auto border w-full mt-5'>
-                    <div className='border-2 border-blue-600 h-28 md:h-40 flex justify-center items-center font-extrabold text-gray-700 text-xl hover:text-white hover:bg-blue-700 cursor-pointer duration-200 rounded-md'>Mieli</div>
-                    <div className='border-2 border-blue-600 h-28 md:h-40 flex justify-center items-center font-extrabold text-gray-700 text-xl hover:text-white hover:bg-blue-700 cursor-pointer duration-200 rounded-md'>Bosch</div>
-                    <div className='border-2 border-blue-600 h-28 md:h-40 flex justify-center items-center font-extrabold text-gray-700 text-xl hover:text-white hover:bg-blue-700 cursor-pointer duration-200 rounded-md'>Siemens</div>
-                    <div className='border-2 border-blue-600 h-28 md:h-40 flex justify-center items-center font-extrabold text-gray-700 text-xl hover:text-white hover:bg-blue-700 cursor-pointer duration-200 rounded-md'>LG </div>
-                    <div className='border-2 border-blue-600 h-28 md:h-40 flex justify-center items-center font-extrabold text-gray-700 text-xl hover:text-white hover:bg-blue-700 cursor-pointer duration-200 rounded-md'>Ariston</div>
+                    <div className=' h-28 md:h-40 flex justify-center items-center font-extrabold text-gray-700 text-xl hover:text-white bg-blue-500 cursor-pointer duration-200 rounded-md'><Image src="/BrandsAssets/Mieli.png" width={150} height={150} /></div>
+                    <div className=' h-28 md:h-40 flex justify-center items-center font-extrabold text-gray-700 text-xl hover:text-white bg-blue-500 cursor-pointer duration-200 rounded-md'><Image src="/BrandsAssets/Bosch.png" width={150} height={150} /></div>
+                    <div className=' h-28 md:h-40 flex justify-center items-center font-extrabold text-gray-700 text-xl hover:text-white bg-blue-500 cursor-pointer duration-200 rounded-md'><Image src="/BrandsAssets/Siemens.png" width={150} height={150} /></div>
+                    <div className=' h-28 md:h-40 flex justify-center items-center font-extrabold text-gray-700 text-xl hover:text-white bg-blue-500 cursor-pointer duration-200 rounded-md'><Image src="/BrandsAssets/LG.png" width={150} height={150} /></div>
+                    <div className=' h-28 md:h-40 flex justify-center items-center font-extrabold text-gray-700 text-xl hover:text-white bg-blue-500 cursor-pointer duration-200 rounded-md'><Image src="/BrandsAssets/Ariston.png" width={150} height={150} /></div>
+
                 </div>
             </div>
         </div>

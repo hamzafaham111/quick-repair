@@ -30,13 +30,13 @@ const AboutSection = () => {
                     </button>
                 </div>
             </div>
-            <div className="bg-gray-500 rounded-tl-lg">
+            <div className="">
                 <Image
-                    src="/AboutAssets/mainImage.jpg"
-                    className="object-cover bg-blue-500 z-50 p-4"
+                    src="/AboutAssets/Hero.jpg"
+                    className="object-cover z-50 p-4 rounded-sm"
                     style={{}}
                     width={550}
-                    height={550}
+                    height={500}
                     alt=""
                 />
             </div>

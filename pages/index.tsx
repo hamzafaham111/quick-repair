@@ -7,6 +7,7 @@ import WhyUs from "../pages/index/WhyUs";
 import Brands from "../pages/index/Brands";
 import Schedule from "../pages/index/Schedule";
 import Testemonial from "../pages/index/Testemonial";
+import Counter from "../pages/index/Counters";
 const Home: NextPage = () => {
   return (
     <>
@@ -17,6 +18,7 @@ const Home: NextPage = () => {
       <Brands />
       <Schedule />
       <Testemonial />
+      <Counter />
     </>
   );
 };
