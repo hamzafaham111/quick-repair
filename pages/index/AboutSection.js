@@ -2,7 +2,7 @@ import React from 'react'
 import Image from "next/image";
 const AboutSection = () => {
     return (
-        <div className="flex items-center justify-between flex-col-reverse md:flex-row  mx-6 sm:mx-8 md:mx-20 pt-20">
+        <div className="flex items-center justify-between flex-col-reverse md:flex-row  mx-6 sm:mx-8 md:mx-20 py-20">
             <div className="md:w-2/4 flex flex-col mt-3 md:mt-0">
                 <div className="flex flex-col text-gray-700 items-start">
                     <span className="text-white text-sm font-extrabold bg-blue-500 px-2 my-1">
@@ -35,8 +35,8 @@ const AboutSection = () => {
                     src="/AboutAssets/mainImage.jpg"
                     className="object-cover bg-blue-500 z-50 p-4"
                     style={{}}
-                    width={500}
-                    height={500}
+                    width={550}
+                    height={550}
                     alt=""
                 />
             </div>
