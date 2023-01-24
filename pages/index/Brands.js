@@ -2,7 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 const Brands = () => {
     return (
-        <div className='mx-6 sm:mx-8 md:mx-20 py-20'>
+        <div className='mx-6 sm:mx-8 md:mx-20 mb-10 md:mb-0 md:py-20'>
             <div className="flex flex-col text-gray-700 items-start">
                 <span className="text-white text-sm font-extrabold bg-blue-500 px-2 my-1">
                     THESE ARE THE

@@ -6,7 +6,7 @@ import LocationOnIcon from '@mui/icons-material/LocationOn';
 const Contact = () => {
   return (
     <div className="flex md:h-screen items-center">
-      <div className="w-full pt-32 pb-32 md:pb-0 md:pt-0 mx-6 sm:mx-8 md:mx-20 pt-10 my-20 flex flex-col md:flex-row items-end">
+      <div className="w-full md:pb-0 md:pt-0 mx-6 sm:mx-8 md:mx-20 my-20 flex flex-col md:flex-row items-end">
         <div className="w-full">
           <div className="mb-5 flex flex-col justify-start items-start">
             <span className="text-white text-sm font-extrabold bg-blue-600 px-2 my-1">
