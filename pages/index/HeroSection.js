@@ -24,9 +24,11 @@ const HeroSection = () => {
                     At our Kitchen Appliance Repair Service, we understand how important it is for your appliances to be in top working condition. Our team of highly trained and experienced technicians are dedicated to providing fast, reliable and cost-effective service to get your appliances back to working order as soon as possible.
                 </p>
                 <div className="mt-4">
-                    <button className="bg-blue-500 px-5 py-1 text-white font-medium border-2 border-blue-500">
-                        CALL NOW
-                    </button>
+                    <a href="tel:+923058034549">
+                        <button className="bg-blue-500 px-5 py-1 text-white font-medium border-2 border-blue-500">
+                            CALL NOW
+                        </button>
+                    </a>
                     <Link to="schedule" smooth={true}>
                         <button className="px-5 py-1 font-medium border-2 border-blue-500 text-blue-500">
                             BOOK NOW
