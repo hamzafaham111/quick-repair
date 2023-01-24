@@ -44,7 +44,7 @@ const WhyUs = () => {
                 </div>
                 <div className=''>
                     <Image
-                        src="/WhyUs/hero.jpg"
+                        src="/WhyUs/hero2.jpg"
                         className="object-cover"
                         style={{}}
                         width={550}

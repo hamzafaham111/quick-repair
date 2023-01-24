@@ -12,7 +12,7 @@ const Calls = () => {
             <div className='flex flex-row items-start'>
                 <span className='bg-white text-gray-700 px-2 mr-2'>Need Help? Chat with us</span>
                 <a href="https://api.whatsapp.com/send?phone=+923058034549">
-                    <Image src="/CallsAssets/whatsaap.png" width={70} height={100} className="shadow-custom rounded-full border" />
+                    <Image src="/CallsAssets/whatsaap.png" width={70} height={100} className="shadow-custom rounded-full" />
                 </a>
             </div>
         </div>
