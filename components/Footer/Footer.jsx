@@ -335,7 +335,7 @@ const Footer = () => {
                 </div>
               </div>
               <div className="flex justify-center border-t border-cyan-800 py-8 text-gray-200">
-                <Link href="_hamzafaham.com">© hamzafaham 2023</Link>
+                <a href="https://hamzafaham.com">© hamzafaham 2023</a>
                 <span className="ml-2"> All right reserved</span>
               </div>
             </div>
