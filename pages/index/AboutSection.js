@@ -35,7 +35,7 @@ const AboutSection = () => {
             </div>
             <div className="">
                 <Image
-                    src="/AboutAssets/Hero.jpg"
+                    src="/AboutAssets/Hero1.webp"
                     className="object-cover bg-blue-500 z-50 p-4"
                     width={550}
                     height={550}

@@ -21,9 +21,7 @@ const HeroSection = () => {
                     </div>
                 </div>
                 <p className="text-gray-800 mt-2 md:w-4/5">
-                    Our appliance repair service is quick and reliable. We understand the
-                    importance of getting your broken appliances fixed as soon as
-                    possible.
+                    At our Kitchen Appliance Repair Service, we understand how important it is for your appliances to be in top working condition. Our team of highly trained and experienced technicians are dedicated to providing fast, reliable and cost-effective service to get your appliances back to working order as soon as possible.
                 </p>
                 <div className="mt-4">
                     <button className="bg-blue-500 px-5 py-1 text-white font-medium border-2 border-blue-500">
@@ -38,7 +36,7 @@ const HeroSection = () => {
             </div>
             <div className="bg-gray-500 rounded-tl-lg">
                 <Image
-                    src="/IndexAssets/heroImage.png"
+                    src="/IndexAssets/heroImage1.png"
                     className="object-cover bg-blue-500 z-50 p-4"
                     width={550}
                     height={550}
