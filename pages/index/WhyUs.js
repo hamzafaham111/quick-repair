@@ -4,7 +4,7 @@ import GroupIcon from '@mui/icons-material/Group';
 import Image from 'next/image';
 const WhyUs = () => {
     return (
-        <div className='mx-6 sm:mx-8 md:mx-20 pt-10 mb-10 md:mb-0 md:my-20'>
+        <div className='mx-6 sm:mx-8 md:mx-20 pt-10 mb-12 md:mb-0 md:my-20'>
             <div className='flex items-center flex-col-reverse md:flex-row'>
                 <div className='flex flex-col items-start md:w-2/4'>
                     <span className="text-white text-sm font-extrabold bg-blue-500 px-2 my-1">

@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from 'next/link';
 const AboutSection = () => {
     return (
-        <div className="flex items-center justify-between flex-col-reverse md:flex-row  mx-6 sm:mx-8 mb-10 md:mb-0 md:mx-20 md:py-20">
+        <div className="flex items-center justify-between flex-col-reverse md:flex-row  mx-6 sm:mx-8 mb-14 md:mb-0 md:mx-20 md:py-20">
             <div className="md:w-2/4 flex flex-col mt-3 md:mt-0">
                 <div className="flex flex-col text-gray-700 items-start">
                     <span className="text-white text-sm font-extrabold bg-blue-500 px-2 my-1">
@@ -36,10 +36,9 @@ const AboutSection = () => {
             <div className="">
                 <Image
                     src="/AboutAssets/Hero.jpg"
-                    className="object-cover z-50 p-4 rounded-sm"
-                    style={{}}
+                    className="object-cover bg-blue-500 z-50 p-4"
                     width={550}
-                    height={500}
+                    height={550}
                     alt=""
                 />
             </div>
