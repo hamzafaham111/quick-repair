@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from "next/image";
+import Link from 'next/link';
 const AboutSection = () => {
     return (
         <div className="flex items-center justify-between flex-col-reverse md:flex-row  mx-6 sm:mx-8 md:mx-20 py-20">
@@ -25,9 +26,11 @@ const AboutSection = () => {
                     <button className="bg-blue-500 px-5 py-1 text-white font-medium border-2 border-blue-500">
                         CALL NOW
                     </button>
-                    <button className="px-5 py-1 font-medium border-2 border-blue-500 text-blue-500">
-                        LEARN MORE
-                    </button>
+                    <Link href="about-us">
+                        <button className="px-5 py-1 font-medium border-2 border-blue-500 text-blue-500">
+                            LEARN MORE
+                        </button>
+                    </Link>
                 </div>
             </div>
             <div className="">

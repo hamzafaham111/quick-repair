@@ -24,7 +24,7 @@ const Services = () => {
                             src="/ServiceAssets/washingMachine.jpg"
                             className="w-full object-cover h-"
                             alt="Image"
-                            style={{ height: "450px", borderRadius: "5px" }}
+                            style={{ height: "400px", borderRadius: "5px" }}
                             height={400}
                             width={400}
                         />
@@ -48,7 +48,7 @@ const Services = () => {
                             src="/ServiceAssets/dishWasher.jpg"
                             className="w-full object-cover"
                             alt="Image"
-                            style={{ height: "450px", borderRadius: "5px" }}
+                            style={{ height: "400px", borderRadius: "5px" }}
                             height={400}
                             width={400}
                         />
@@ -72,7 +72,7 @@ const Services = () => {
                             src="/ServiceAssets/dryer.jpg"
                             className="w-full object-cover"
                             alt="Image"
-                            style={{ height: "450px", borderRadius: "5px" }}
+                            style={{ height: "400px", borderRadius: "5px" }}
                             height={400}
                             width={400}
                         />

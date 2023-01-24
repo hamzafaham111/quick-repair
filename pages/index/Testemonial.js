@@ -155,7 +155,7 @@ const Testimonial = () => {
                 <SwiperSlide>
                     <div className="block rounded-lg shadow-lg bg-white reviewCard">
                         <div className="overflow-hidden rounded-t-lg h-28 bg-blue-500" />
-                        <div className="w-24 -mt-12 overflow-hidden border-2 border-white rounded-full mx-auto bg-white">
+                        <div className="min-w-24 -mt-12 overflow-hidden border-2 border-white rounded-full mx-auto bg-white">
                             <img
                                 src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(1).webp"
                                 alt="#"

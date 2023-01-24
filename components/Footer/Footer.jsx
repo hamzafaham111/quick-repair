@@ -1,4 +1,7 @@
 import React from "react";
+import EmailIcon from "@mui/icons-material/Email";
+import ContactPhoneIcon from "@mui/icons-material/ContactPhone";
+import LocationOnIcon from "@mui/icons-material/LocationOn";
 
 const Footer = () => {
   return (
@@ -73,10 +76,10 @@ const Footer = () => {
             <div>
               <div className="grid grid-cols-2 gap-6 pb-16 sm:grid-cols-3 md:grid-cols-5">
                 <div>
-                  <h6 className="text-lg font-medium text-gray-100 dark:text-gray-200">
-                    Categories
+                  <h6 className="text-lg font-bold text-gray-100 dark:text-gray-200">
+                    About Us
                   </h6>
-                  <ul className="mt-4 list-inside space-y-4">
+                  {/* <ul className="mt-4 list-inside space-y-4">
                     <li>
                       <a href="/" className="transition hover:text-primary">
                         About
@@ -95,75 +98,98 @@ const Footer = () => {
                     <li>
                       <a href="/" className="transition hover:text-primary">
                         Partners
+                      </a>
+                    </li>
+                  </ul> */}
+                  <p className="leading-4">
+                    Our appliance repair service is quick and reliable. We
+                    understand the importance of getting your broken appliances
+                    fixed as soon as possible.
+                  </p>
+                </div>
+                <div>
+                  <h6 className="text-lg font-bold text-gray-100 dark:text-gray-200">
+                    Services
+                  </h6>
+                  <ul className="list-inside space-y-2">
+                    <li className="leading-none">
+                      <a href="/" className="transition hover:text-primary">
+                        <span className="font-extrabold">1.</span> Washing
+                        Machine Repaire service
+                      </a>
+                    </li>
+                    <li className="leading-none">
+                      <a href="/" className="transition hover:text-primary">
+                        <span className="font-extrabold">2.</span> Dishwasher
+                        Repaire service
+                      </a>
+                    </li>
+                    <li className="leading-none">
+                      <a href="/" className="transition hover:text-primary">
+                        <span className="font-extrabold">3.</span> Dryer Machine
+                        Repaire service
                       </a>
                     </li>
                   </ul>
                 </div>
                 <div>
-                  <h6 className="text-lg font-medium text-gray-100 dark:text-gray-200">
-                    Products
+                  <h6 className="text-lg font-bold text-gray-100 dark:text-gray-200">
+                    Locations
                   </h6>
-                  <ul className="mt-4 list-inside space-y-4">
+                  <ul className=" list-inside space-y-1">
                     <li>
-                      <a href="/" className="transition hover:text-primary">
-                        About
+                      <a href="/" className="transition hover:text-primary ">
+                        <span className="font-extrabold">1.</span> Victory
+                        Hights
                       </a>
                     </li>
                     <li>
                       <a href="/" className="transition hover:text-primary">
-                        Customers
+                        <span className="font-extrabold">2.</span> Jumaira Gulf
+                        Estate
                       </a>
                     </li>
                     <li>
                       <a href="/" className="transition hover:text-primary">
-                        Enterprise
+                        <span className="font-extrabold">3.</span> Palm Jumaira
                       </a>
                     </li>
                     <li>
                       <a href="/" className="transition hover:text-primary">
-                        Partners
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-                <div>
-                  <h6 className="text-lg font-medium text-gray-100 dark:text-gray-200">
-                    Ressources
-                  </h6>
-                  <ul className="mt-4 list-inside space-y-4">
-                    <li>
-                      <a href="/" className="transition hover:text-primary">
-                        About
+                        <span className="font-extrabold">4.</span> Arabian
+                        Ranches
                       </a>
                     </li>
                     <li>
                       <a href="/" className="transition hover:text-primary">
-                        Customers
+                        <span className="font-extrabold">5.</span> Damac hill
                       </a>
                     </li>
                     <li>
                       <a href="/" className="transition hover:text-primary">
-                        Enterprise
+                        <span className="font-extrabold">8.</span> Emirates
+                        Hills
                       </a>
                     </li>
                     <li>
                       <a href="/" className="transition hover:text-primary">
-                        Partners
+                        <span className="font-extrabold">8.</span> The Villa
                       </a>
                     </li>
                   </ul>
                 </div>
                 <div className="col-span-2 sm:col-span-3 md:col-span-2">
-                  <h6 className="text-lg font-medium text-gray-100 dark:text-gray-200">
+                  <h6 className="text-lg font-bold text-gray-100 dark:text-gray-200">
                     Contact
                   </h6>
-                  <ul className="mt-4 list-inside space-y-4">
+                  <ul className=" list-inside space-y-1">
                     <li>
                       <a
                         href="tel:+243996660436"
                         className="transition hover:text-primary"
                       >
-                        +243 996 660 436
+                        <ContactPhoneIcon />
+                        <span className="ml-2">+923058034549</span>
                       </a>
                     </li>
                     <li>
@@ -171,7 +197,8 @@ const Footer = () => {
                         href="mailto:meschacirung@gmail.com"
                         className="transition hover:text-primary"
                       >
-                        contact@tailus.com
+                        <EmailIcon />
+                        <span className="ml-2">contact@tailus.com</span>
                       </a>
                     </li>
                     <li>

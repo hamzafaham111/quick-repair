@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from "next/image";
+import { Link } from "react-scroll";
 const HeroSection = () => {
     return (
         <div className="flex items-center justify-between flex-col-reverse md:flex-row  mx-6 sm:mx-8 md:mx-20 py-20">
@@ -28,9 +29,11 @@ const HeroSection = () => {
                     <button className="bg-blue-500 px-5 py-1 text-white font-medium border-2 border-blue-500">
                         CALL NOW
                     </button>
-                    <button className="px-5 py-1 font-medium border-2 border-blue-500 text-blue-500">
-                        BOOK NOW
-                    </button>
+                    <Link to="schedule" smooth={true}>
+                        <button className="px-5 py-1 font-medium border-2 border-blue-500 text-blue-500">
+                            BOOK NOW
+                        </button>
+                    </Link>
                 </div>
             </div>
             <div className="bg-gray-500 rounded-tl-lg">

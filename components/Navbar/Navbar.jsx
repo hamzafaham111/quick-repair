@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import Link from "next/link";
+import { Link } from "react-scroll";
 import Image from "next/image";
 const Navbar = () => {
   const [navbar, setNavbar] = useState(false);
@@ -112,7 +112,8 @@ const Navbar = () => {
               <ul className="items-center font-medium space-y-8 md:flex md:space-x-6 md:space-y-0 text-sm">
                 <li>
                   <Link
-                    href="/"
+                    to="home"
+                    smooth={true}
                     className="text-gray-800 hover:text-blue-500 focus:text-blue-500"
                   >
                     HOME{" "}
@@ -120,7 +121,8 @@ const Navbar = () => {
                 </li>
                 <li>
                   <Link
-                    href="/about-us"
+                    to="about-us"
+                    smooth={true}
                     className="text-gray-800 hover:text-blue-500 focus:text-blue-500"
                   >
                     ABOUT
@@ -128,7 +130,8 @@ const Navbar = () => {
                 </li>
                 <li>
                   <Link
-                    href="/blog"
+                    to="services"
+                    smooth={true}
                     className="text-gray-800 hover:text-blue-500 focus:text-blue-500"
                   >
                     SERVICES
@@ -136,7 +139,8 @@ const Navbar = () => {
                 </li>
                 <li>
                   <Link
-                    href="/blog"
+                    to="brands"
+                    smooth={true}
                     className="text-gray-800 hover:text-blue-500 focus:text-blue-500"
                   >
                     BRANDS
@@ -144,7 +148,8 @@ const Navbar = () => {
                 </li>
                 <li>
                   <Link
-                    href="/contact-us"
+                    to="contact"
+                    smooth={true}
                     className="text-gray-800 hover:text-blue-500 focus:text-blue-500"
                   >
                     CONTACT
