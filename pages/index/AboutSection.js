@@ -18,9 +18,10 @@ const AboutSection = () => {
                     </div>
                 </div>
                 <p className="text-gray-800 mt-2 md:w-4/5 font-medium">
-                    Our appliance repair service is quick and reliable. We understand the
-                    importance of getting your broken appliances fixed as soon as
-                    possible.
+                    Welcome to our kitchen appliance repair service in Dubai! We are a team of
+                    experienced technicians dedicated to providing top-notch repair and maintenance
+                    services for all types of kitchen appliances. Our goal is to ensure that your
+                    appliances are running smoothly and efficiently, so you can enjoy a functional and comfortable kitchen
                 </p>
                 <div className="mt-4">
                     <a href="tel:+923058034549">
