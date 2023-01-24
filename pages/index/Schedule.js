@@ -36,8 +36,8 @@ const Schedule = () => {
                     <input type="text" className='border border-gray-400 p-2 my-2 text-gray-500 outline-none ' placeholder="Phone Number" />
                     <input type="text" className='border border-gray-400 p-2 my-2 text-gray-500 outline-none ' placeholder="Home Address" />
                     <div className='flex'>
-                        <input type="date" className='border border-gray-400 p-2 my-2 text-gray-500 outline-none mr-1 w-full' placeholder="Full Name" />
-                        <input type="time" className='border border-gray-400 p-2 my-2 text-gray-500 outline-none ' placeholder="Phone Number" />
+                        <input type="date" placeholder="date" className='border border-gray-400 p-2 my-2 text-gray-500 outline-none mr-1 w-full' placeholder="Full Name" />
+                        <input type="time" placeholder="time" className='border border-gray-400 p-2 my-2 text-gray-500 outline-none ' placeholder="Phone Number" />
                     </div>
                     <button className=' p-2 bg-blue-600 font-bold text-white'>SUBMIT INFORMATION</button>
                 </div>
