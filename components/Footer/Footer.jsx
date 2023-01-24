@@ -244,7 +244,7 @@ const Footer = () => {
                       >
                         {/* <ContactPhoneIcon /> */}
                         <Image
-                          src="/BrandsAssets/mieli.png"
+                          src="/BrandsAssets/Mieli.png"
                           height={100}
                           width={120}
                         />
