@@ -114,7 +114,7 @@ const Navbar = () => {
                   <Link
                     to="home"
                     smooth={true}
-                    className="text-gray-800 hover:text-blue-500 focus:text-blue-500"
+                    className="text-gray-800 hover:text-blue-500 cursor-pointer focus:text-blue-500"
                   >
                     HOME{" "}
                   </Link>
@@ -123,7 +123,7 @@ const Navbar = () => {
                   <Link
                     to="about-us"
                     smooth={true}
-                    className="text-gray-800 hover:text-blue-500 focus:text-blue-500"
+                    className="text-gray-800 hover:text-blue-500 cursor-pointer focus:text-blue-500"
                   >
                     ABOUT
                   </Link>
@@ -132,7 +132,7 @@ const Navbar = () => {
                   <Link
                     to="services"
                     smooth={true}
-                    className="text-gray-800 hover:text-blue-500 focus:text-blue-500"
+                    className="text-gray-800 hover:text-blue-500 cursor-pointer focus:text-blue-500"
                   >
                     SERVICES
                   </Link>
@@ -141,7 +141,7 @@ const Navbar = () => {
                   <Link
                     to="brands"
                     smooth={true}
-                    className="text-gray-800 hover:text-blue-500 focus:text-blue-500"
+                    className="text-gray-800 hover:text-blue-500 cursor-pointer focus:text-blue-500"
                   >
                     BRANDS
                   </Link>
@@ -150,7 +150,7 @@ const Navbar = () => {
                   <Link
                     to="contact"
                     smooth={true}
-                    className="text-gray-800 hover:text-blue-500 focus:text-blue-500"
+                    className="text-gray-800 hover:text-blue-500 cursor-pointer focus:text-blue-500"
                   >
                     CONTACT
                   </Link>
