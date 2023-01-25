@@ -21,7 +21,10 @@ const HeroSection = () => {
                     </div>
                 </div>
                 <p className="text-gray-800 mt-2 md:w-4/5">
-                    At our Kitchen Appliance Repair Service, we understand how important it is for your appliances to be in top working condition. Our team of highly trained and experienced technicians are dedicated to providing fast, reliable and cost-effective service to get your appliances back to working order as soon as possible.
+                    At our Kitchen Appliance Repair Service, we understand how important it is for your
+                    appliances to be in top working condition. Our team of highly trained and experienced
+                    technicians are dedicated to providing fast, reliable and cost-effective service to get
+                    your appliances back to working order as soon as possible.
                 </p>
                 <div className="mt-4">
                     <a href="tel:+923058034549">
